@@ -39,4 +39,12 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $('.smooth-goto').on('click', function() {
+    // console.log("clicked");  
+    $('#projects').animate({scrollTop: $(this.hash).offset().top - 50}, 1000);
+    return false;
+  });
+
 })(jQuery); // End of use strict
+
+
