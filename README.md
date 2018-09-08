@@ -1,15 +1,5 @@
 # PsyD
-Static site for Dr. Cannata
+Static site for Dr. Cannata created by Tony Wible and CloudMash LLC. Contact Info: 
 
 
-images - nature - relaxing
-
-home
-landing image
-blub on helpfullness
-
-
-
-footer address, email, and number
-address and lisc number
 
