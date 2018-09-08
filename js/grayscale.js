@@ -40,7 +40,7 @@
   $(window).scroll(navbarCollapse);
 
   $('.smooth-goto').on('click', function() {
-    // console.log("clicked");  
+    // console.log( "clicked");  
     $('#projects').animate({scrollTop: $(this.hash).offset().top - 50}, 1000);
     return false;
   });
