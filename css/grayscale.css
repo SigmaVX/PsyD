@@ -150,7 +150,7 @@ hr:after {
   width: calc(100%-40px);
   opacity: 0;
   transition: 1.5s ease;
-  background-color: #008CBA;
+  background-color: #64a19d;
 }
 
 .img-container:hover .img-overlay {
@@ -176,12 +176,7 @@ hr:after {
   position: relative;
   width: 100%;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("https://picsum.photos/2000/1000/?random");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  
 }
 
 .jumbo-header h1{
@@ -195,6 +190,28 @@ hr:after {
   font-family: 'Varela Round';
 }
 
+.jumbo-inspiration{
+
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/dock.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/dock.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+.jumbo-philosophy{
+
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/water-tree-3.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/water-tree-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
 .justify{
   text-align: justify;
 }
@@ -205,8 +222,8 @@ hr:after {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("https://picsum.photos/2000/1000/?random");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/forest-path.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/forest-path.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -258,17 +275,20 @@ hr:after {
     position: relative;
     z-index: 1;
     margin-bottom: -6rem;
+    text-align: center;
   }
   .product-item .product-item-img {
     position: relative;
     z-index: 0;
     max-width: 60vw;
+    text-align: center;
   }
   .product-item .product-item-description {
     position: relative;
     z-index: 1;
     margin-top: -10rem;
     max-width: 50vw;
+    text-align: center;
   }
 }
 
@@ -317,7 +337,7 @@ hr:after {
 
 .quote-background{
   background: #322C40;
-  height: 250px;
+  height: 350px;
   text-align: center;
   font-size: 30px;
   padding-top: 110px;
@@ -325,15 +345,22 @@ hr:after {
   color: #fff;
   font-size: 1.5em;
   background-attachment: fixed;
-  background-image: url("../img/bg-signup.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.quote-img-1{
+  background-image: url("../img/woods-4.jpg");
+}
+
+.quote-img-2{
+  background-image: url("../img/flowers-4.jpg");
 }
 
 .signup-section {
   padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/cherry-blossem.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
