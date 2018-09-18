@@ -47,3 +47,7 @@ Photo by mckenzie toyne on Unsplash
 Photo by Ester Marie Doysabas on Unsplash
 Photo by Johannes Plenio on Unsplash
 Photo by Kevin Delvecchio on Unsplash
+Photo by john ehrlich on Unsplash
+Photo by Rodolfo Sanches Carvalho on Unsplash
+Photo by Annie Spratt on Unsplash
+
