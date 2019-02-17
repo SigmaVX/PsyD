@@ -45,6 +45,18 @@ hr:after {
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
+.background-img1{
+  background-image: url("../img/flowers-2.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+
+.background-img2{
+  background-image: url("../img/flowers-5.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+
  .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -135,7 +147,6 @@ hr:after {
 
 .img-container{
   position: relative;
-  width: 50%;
 }
 
 .img-hover {
@@ -147,11 +158,11 @@ hr:after {
 .img-overlay {
   position: absolute;
   top: 5px;
-  bottom: 29px;
   left: 20px;
-  right: 20px;
-  height: calc(100%-40px);
-  width: calc(100%-40px);
+  width: 100%;
+  height: 100%;
+  /* max-height: calc(100%-40px); */
+  /* width: calc(100%-40px); */
   opacity: 0;
   transition: 1.5s ease;
   background-color: #64a19d;
@@ -249,7 +260,7 @@ hr:after {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;  
 }
@@ -283,7 +294,6 @@ hr:after {
   }
 }
 
-
 @media (min-width: 992px) {
   .product-item .product-item-title {
     position: relative;
@@ -304,6 +314,11 @@ hr:after {
     max-width: 50vw;
     text-align: center;
   }
+}
+
+.philosophy-text{
+  font-size: 16px;
+  margin: 20px auto;
 }
 
 .projects-section {
@@ -352,9 +367,10 @@ hr:after {
 .quote-background{
   background: #322C40;
   height: 350px;
+  width: 100%;
   text-align: center;
-  font-size: 30px;
-  font-family: 'PT Sans', sans-serif;
+  /* font-size: 30px; */
+  /* font-family: 'PT Sans', sans-serif; */
   padding-top: 150px;
   text-transform: capitalize;
   color: #fff;
@@ -372,6 +388,20 @@ hr:after {
 
 .quote-img-2{
   background-image: url("../img/flowers-4.jpg");
+}
+
+
+.quote-text{
+  /* font-family: 'Kaushan Script', cursive; */
+  font-size: 30px;
+  text-align: center;
+}
+
+.quote-source{
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-size: 16px;
 }
 
 .signup-section {
@@ -396,10 +426,33 @@ hr:after {
   border: 0;
 }
 
+.splash-container{
+  position: absolute;
+  top: 33vh;
+  left: 10vw;
+  width: 80vw;
+  margin: 0px auto;
+}
+
 .text-primary {
   color: #64a19d !important;
 }
 
+.specialization-text{
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.specialization-title{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+.rounded-circle{
+  width: 70%;
+}
 
 #mainNav {
   min-height: 56px;
@@ -424,7 +477,7 @@ hr:after {
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(white, 90%);
   outline: none;
   background-color: transparent;
 }
