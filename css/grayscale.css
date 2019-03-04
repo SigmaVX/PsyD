@@ -141,6 +141,10 @@ hr:after {
   color: #fff;
 }
 
+.faq-subtitle{
+  font-size: 20px;
+}
+
 .icon{
   width: 30px;
 }
@@ -159,8 +163,6 @@ hr:after {
   position: absolute;
   top: 5px;
   left: 20px;
-  /* width: 100%;
-  height: 100%; */
   height: calc(100% - 34px);
   width: calc(100% - 40px);
   opacity: 0;
@@ -181,6 +183,11 @@ hr:after {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.line{
+  border-bottom: 2px solid #64a19d;
   text-align: center;
 }
 
@@ -266,7 +273,8 @@ hr:after {
 }
 
 .masthead h2 {
-  max-width: 20rem;
+  /* max-width: 20rem; */
+  max-width: 80%;
   font-size: 1rem;
 }
 
@@ -288,11 +296,22 @@ hr:after {
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
-    max-width: 30rem;
+    /* max-width: 30rem; */
     font-size: 2em;
     color: #fff;
   }
 }
+
+.modal-content{
+  background-color: #64a19d;
+}
+
+.modal-header{
+  display: inline-block;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 
 @media (min-width: 992px) {
   .product-item .product-item-title {
@@ -354,13 +373,13 @@ hr:after {
 
  .post-title{
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   text-transform: capitalize; 
 }
 
 .post-subtitle{
   color: grey;
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
 }
 
@@ -452,6 +471,12 @@ hr:after {
 
 .rounded-circle{
   width: 70%;
+}
+
+#expect{
+  padding-top: 20px;
+  margin-bottom: -20px;
+  /* border-bottom: 2px solid #64a19d; */
 }
 
 #mainNav {
